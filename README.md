@@ -138,6 +138,15 @@ The waveforms assigned to the 'lead' cluster (cluster 1) are plotted below. Thes
 
 ![Lead Cluster](lead_cluster.png)
 
-*Figure 3: First five waveforms classified as leads (clusters_gmm == 1), showing high peak power and sharp pulse characteristics.*
+*Figure 3: Waveforms classified as leads (clusters_gmm == 1), showing high peak power and sharp pulse characteristics.*
+
+---
+## 4. Sea Ice Cluster Waveforms
+
+The waveforms assigned to the 'sea ice' cluster (cluster 0) are shown below. These waveforms demonstrate the more diffuse, lower-power returns typical of rough surface scattering from sea ice. The peak amplitudes are substantially lower (maximum around 6000 units) compared to leads, reflecting the different scattering mechanisms at play.
+
+![Sea Ice Cluster](sea_ice_cluster.png)
+
+*Figure 4: Waveforms classified as sea ice (clusters_gmm == 0), showing lower power and more diffuse shape compared to leads.*
 
 ---
