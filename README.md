@@ -111,3 +111,14 @@ The physical characteristics of different surface materials—such as roughness,
 # Results
 
 The following sections present the key findings from applying Gaussian Mixture Models to Sentinel-3 altimetry data. Each figure illustrates different aspects of the classification and analysis.
+---
+
+## 1. Gaussian Mixture Model Demonstration
+
+The figure below shows a basic implementation of GMM clustering on synthetic data, demonstrating how the algorithm identifies distinct clusters in two-dimensional space. This serves as a conceptual foundation for understanding how GMM will be applied to the altimetry waveform data.
+
+![Gaussian Mixture Model](GMM.png)
+
+*Figure 1: Basic GMM clustering example showing three identified clusters with centroids marked in black.*
+
+---
