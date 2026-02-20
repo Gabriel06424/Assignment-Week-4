@@ -99,6 +99,6 @@ A primary objective of the Sentinel-3 mission is to measure sea surface topograp
 
 Altimetry satellites function by transmitting radar pulses toward the Earth's surface; the portion of this signal that returns to the sensor is termed an "echo". The time delay between transmission and reception provides measurements of surface feature elevations.
 
-The physical characteristics of different surface materials—such as roughness, dielectric properties, and structure—significantly influence both the shape and intensity of the returned echo. This relationship allows us to interpret echo characteristics as indicators of surface conditions. In this project, we leverage these principles specifically to differentiate between sea ice and open water leads.
+The physical characteristics of different surface materials—such as roughness, dielectric properties, and structure，which will significantly influence both the shape and intensity of the returned echo. This relationship allows us to interpret echo characteristics as indicators of surface conditions. In this project, we leverage these principles specifically to differentiate between sea ice and open water leads.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
