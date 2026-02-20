@@ -160,3 +160,15 @@ Raw echoes often have their peak power at different range bins due to variations
 *Figure 5: Alignment parameters showing range bin shifts (in meters and bins) and power values for sample sea ice and lead echoes before and after alignment.*
 
 ---
+## 6. Validation: Confusion Matrix
+
+To quantify the performance of the GMM classification, the predicted cluster labels were compared against official ESA classifications. The confusion matrix below shows the agreement between the two, with the majority of samples correctly classified. The matrix values indicate the classification accuracy and reveal the primary sources of misclassification between the two surface types.
+
+![Confusion Matrix Gmm](confusion_matrix_gmm.png)
+
+*Figure 6: Confusion matrix comparing GMM predictions (columns) vs. ESA ground truth labels (rows), where 0 represents sea ice and 1 represents leads.*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
