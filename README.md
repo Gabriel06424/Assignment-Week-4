@@ -122,3 +122,12 @@ The figure below shows a basic implementation of GMM clustering on synthetic dat
 *Figure 1: Basic GMM clustering example showing three identified clusters with centroids marked in black.*
 
 ---
+## 2. Mean and Standard Deviation Analysis
+
+The mean and standard deviation of all waveforms within each class provide a statistical summary of their shape characteristics. The plot shows that lead echoes have significantly higher mean peak power and greater variability (standard deviation), possibly due to varying lead widths or surface conditions. Sea ice echoes are more consistent in shape and power, reflecting a more homogenous scattering surface.
+
+![Mean and Standard Deviation](mean&standard_deviation.png)
+
+*Figure 2: Average echo shape (solid line) ± one standard deviation (shaded area) for Sea Ice and Leads. X-axis: range bins (0-250), Y-axis: power (-5000 to 5000).*
+
+---
