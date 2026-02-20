@@ -151,3 +151,12 @@ The waveforms assigned to the 'sea ice' cluster (cluster 0) are shown below. The
 *Figure 4: Waveforms classified as sea ice (clusters_gmm == 0), showing lower power and more diffuse shape compared to leads.*
 
 ---
+## 5. Echo Alignment Examples
+
+Raw echoes often have their peak power at different range bins due to variations in surface elevation. The alignment process shifts each waveform to a common reference point before averaging, reducing noise in the statistical shapes. The table below shows the calculated shift parameters applied to sample echoes from both classes.
+
+![Alignment Examples](alignment_examples.png)
+
+*Figure 5: Alignment parameters showing range bin shifts (in meters and bins) and power values for sample sea ice and lead echoes before and after alignment.*
+
+---
