@@ -106,3 +106,8 @@ Altimetry satellites function by transmitting radar pulses toward the Earth's su
 The physical characteristics of different surface materials—such as roughness, dielectric properties, and structure，which will significantly influence both the shape and intensity of the returned echo. This relationship allows us to interpret echo characteristics as indicators of surface conditions. In this project, we leverage these principles specifically to differentiate between sea ice and open water leads.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- RESULTS -->
+
+# Results
+
+The following sections present the key findings from applying Gaussian Mixture Models to Sentinel-3 altimetry data. Each figure illustrates different aspects of the classification and analysis.
