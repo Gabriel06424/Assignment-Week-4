@@ -132,7 +132,6 @@ The mean and standard deviation of all waveforms within each class provide a sta
 *Figure 2: Average echo shape (solid line) ± one standard deviation (shaded area) for Sea Ice and Leads. X-axis: range bins (0-250), Y-axis: power (-5000 to 10000).*
 
 ---
-
 ## 3. Lead Cluster Waveforms
 
 The first five waveforms assigned to the 'lead' cluster (cluster 1) are plotted below. These waveforms exhibit the characteristic sharp, high-power peak expected from specular reflection off the smooth water surface of open leads. The high amplitude (up to 250,000 units) confirms the strong return signal from these features.
