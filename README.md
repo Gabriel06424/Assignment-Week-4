@@ -134,7 +134,7 @@ The mean and standard deviation of all waveforms within each class provide a sta
 ---
 ## 3. Lead Cluster Waveforms
 
-The first five waveforms assigned to the 'lead' cluster (cluster 1) are plotted below. These waveforms exhibit the characteristic sharp, high-power peak expected from specular reflection off the smooth water surface of open leads. The high amplitude (up to 250,000 units) confirms the strong return signal from these features.
+The waveforms assigned to the 'lead' cluster (cluster 1) are plotted below. These waveforms exhibit the characteristic sharp, high-power peak expected from specular reflection off the smooth water surface of open leads. The high amplitude (up to 300,000 units) confirms the strong return signal from these features.
 
 ![Lead Cluster](lead_cluster.png)
 
