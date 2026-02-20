@@ -168,6 +168,10 @@ To quantify the performance of the GMM classification, the predicted cluster lab
 
 *Figure 6: Confusion matrix comparing GMM predictions (columns) vs. ESA ground truth labels (rows), where 0 represents sea ice and 1 represents leads.*
 
+- **Practical Implications**: The confusion matrix highlights a fundamental challenge in unsupervised classification of imbalanced geophysical datasets. While the GMM successfully captures the dominant sea ice signature, it struggles to resolve the rarer lead class. This suggests that for operational applications where lead detection is critical, additional strategies may be necessary: feature engineering to enhance lead-specific signatures, applying class weights during clustering, or considering semi-supervised approaches that leverage limited ground truth data.
+
+- **Comparison with Alternative Methods**: The low recall for leads indicates that standard GMM without addressing class imbalance may not be optimal for this specific application. Future work could explore balanced sampling techniques, anomaly detection approaches, or two-stage classification strategies to improve lead detection rates while maintaining sea ice accuracy.
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
