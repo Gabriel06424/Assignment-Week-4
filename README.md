@@ -182,3 +182,9 @@ To quantify the performance of the GMM classification, the predicted cluster lab
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
+<!-- ACKNOWLEDGMENTS -->
+# Acknowledgments
+
+- This project is part of an assignment for module GEOL0069 taught in UCL Earth Sciences Department
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
