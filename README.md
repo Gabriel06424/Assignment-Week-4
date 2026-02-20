@@ -20,3 +20,29 @@
   <summary><strong>Table of Contents</strong></summary>
   <ol>
     <li><a href="#introduction-to-unsupervised-learning">Introduction to Unsupervised Learn
+ing</a>
+      <ul>
+        <li><a href="#k-means-clustering">K-means Clustering</a></li>
+        <li><a href="#gaussian-mixture-models-gmm">Gaussian Mixture Models (GMM)</a></li>
+      </ul>
+    </li>
+    <li><a href="#methods--implementation">Methods & Implementation</a>
+      <ul>
+        <li><a href="#prerequisites--installation">Prerequisites & Installation</a></li>
+        <li><a href="#context-sentinel-3-mission">Context: Sentinel-3 Mission</a></li>
+      </ul>
+    </li>
+    <li><a href="#results">Results</a>
+      <ul>
+        <li><a href="#1-gaussian-mixture-model-demonstration">1. Gaussian Mixture Model Demonstration</a></li>
+        <li><a href="#2-mean-and-standard-deviation-analysis">2. Mean and Standard Deviation Analysis</a></li>
+        <li><a href="#3-lead-cluster-waveforms">3. Lead Cluster Waveforms</a></li>
+        <li><a href="#4-sea-ice-cluster-waveforms">4. Sea Ice Cluster Waveforms</a></li>
+        <li><a href="#5-echo-alignment-examples">5. Echo Alignment Examples</a></li>
+        <li><a href="#6-validation-confusion-matrix">6. Validation: Confusion Matrix</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
