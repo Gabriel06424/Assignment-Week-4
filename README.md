@@ -15,3 +15,8 @@
     <img src="https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white" alt="Colab">
   </p>
 </div>
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary><strong>Table of Contents</strong></summary>
+  <ol>
+    <li><a href="#introduction-to-unsupervised-learning">Introduction to Unsupervised Learn
