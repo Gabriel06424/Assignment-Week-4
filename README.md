@@ -83,3 +83,12 @@ GMM is a probabilistic model that assumes data is generated from a mixture of mu
 The following software needs to be installed to run the code:
 
 ```sh
+# Install required packages
+!pip install netCDF4
+!pip install basemap
+!pip install cartopy
+!pip install scikit-learn matplotlib numpy rasterio
+
+# Mount Google Drive for data access (in Colab)
+from google.colab import drive
+drive.mount('/content/drive')
