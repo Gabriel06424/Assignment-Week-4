@@ -54,3 +54,10 @@ Unsupervised learning methods are essential for discovering hidden patterns in u
 ## K-means Clustering
 
 K-means clustering is a centroid-based algorithm that partitions data into k groups by minimizing the within-cluster variance. The algorithm iteratively assigns data points to the nearest centroid and updates centroid positions until convergence. Key characteristics include:
+
+- **Choosing K**: The number of clusters must be specified in advance
+- **Centroid Initialization**: Initial placement affects final results
+- **Assignment Step**: Points assigned based on squared Euclidean distance
+- **Update Step**: Centroids recomputed as cluster means
+
+**Advantages**: Computational efficiency and ease of interpretation make K-means ideal for exploratory data analysis with large datasets.
