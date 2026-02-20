@@ -46,3 +46,7 @@ ing</a>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+<!-- INTRODUCTION TO UNSUPERVISED LEARNING -->
+# Introduction to Unsupervised Learning
+
+Unsupervised learning methods are essential for discovering hidden patterns in unlabeled data, making them particularly valuable for Earth Observation applications where ground truth data may be limited. This project focuses on two fundamental approaches: K-means clustering and Gaussian Mixture Models.
