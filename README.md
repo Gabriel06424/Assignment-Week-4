@@ -74,3 +74,12 @@ GMM is a probabilistic model that assumes data is generated from a mixture of mu
 **Advantages**: GMM offers flexibility in cluster shapes and provides uncertainty estimates through probabilistic assignments, making it particularly suitable for capturing the natural variability in sea ice and lead backscatter.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- METHODS & IMPLEMENTATION -->
+
+# Methods & Implementation
+
+## Prerequisites & Installation
+
+The following software needs to be installed to run the code:
+
+```sh
