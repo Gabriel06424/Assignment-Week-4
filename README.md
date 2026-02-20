@@ -94,3 +94,13 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 ## Context: Sentinel-3 Mission
+
+One of the main aims of the Sentinel-3 mission is to measure sea surface topography, with applications to the study of sea level, sea-ice and wind speed over the ocean surface, as well as ocean currents, waves, eddies and tides.
+
+*For more information on the Sentinel-3 mission, please visit the [Copernicus Sentinel Online Website](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-3) or the [Sentinel-3 Altimetry User Guide](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-altimetry)*
+
+In order to get information about the surface, altimetry satellites send radar signals to the Earth which interact with the surface, and the part of the signal that is reflected back to the sensor is called an "echo". The time it takes for this signal to be reflected back is used to measure the elevation of features on the surface.
+
+The difference in physical properties between different materials or substances alters the shape and strength of the echo that is received by the sensor, allowing us to use these echos as indicators of what is going on at the surface. For example, to distinguish between sea ice and leads which is the topic of this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
