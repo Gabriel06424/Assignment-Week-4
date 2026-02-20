@@ -61,3 +61,16 @@ K-means clustering is a centroid-based algorithm that partitions data into k gro
 - **Update Step**: Centroids recomputed as cluster means
 
 **Advantages**: Computational efficiency and ease of interpretation make K-means ideal for exploratory data analysis with large datasets.
+
+## Gaussian Mixture Models (GMM)
+
+GMM is a probabilistic model that assumes data is generated from a mixture of multiple Gaussian distributions with unknown parameters. Unlike K-means, GMM provides soft classification by estimating the probability of each data point belonging to each cluster.
+
+**Key Components**:
+- **Number of Components**: Similar to K in K-means
+- **Expectation-Maximization (EM) Algorithm**: Iteratively calculates membership probabilities and updates parameters
+- **Covariance Type**: Determines cluster shape, size, and orientation
+
+**Advantages**: GMM offers flexibility in cluster shapes and provides uncertainty estimates through probabilistic assignments, making it particularly suitable for capturing the natural variability in sea ice and lead backscatter.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
