@@ -171,4 +171,14 @@ To quantify the performance of the GMM classification, the predicted cluster lab
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
+<!-- CONTACT -->
+# Contact
 
+**Keji Cao**
+- Email: [zcfbkca@ucl.ac.uk]
+- GitHub: [@Gabriel06424](https://github.com/Gabriel06424)
+- Project Link: [https://github.com/Gabriel06424/Assignment-Week-4](https://github.com/Gabriel06424/Assignment-Week-4)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
