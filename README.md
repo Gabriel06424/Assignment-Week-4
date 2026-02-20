@@ -129,6 +129,6 @@ The mean and standard deviation of all waveforms within each class provide a sta
 
 ![Mean and Standard Deviation](mean&standard_deviation.png)
 
-*Figure 2: Average echo shape (solid line) ± one standard deviation (shaded area) for Sea Ice and Leads. X-axis: range bins (0-250), Y-axis: power (-5000 to 5000).*
+*Figure 2: Average echo shape (solid line) ± one standard deviation (shaded area) for Sea Ice and Leads. X-axis: range bins (0-250), Y-axis: power (-5000 to 10000).*
 
 ---
