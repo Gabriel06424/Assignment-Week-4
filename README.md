@@ -64,17 +64,21 @@ K-means clustering is a centroid-based algorithm that partitions data into k gro
 
 ## Gaussian Mixture Models (GMM)
 
-GMM is a probabilistic model that assumes data is generated from a mixture of multiple Gaussian distributions with unknown parameters. Unlike K-means, GMM provides soft classification by estimating the probability of each data point belonging to each cluster.
+Gaussian Mixture Models offer a probabilistic framework for clustering by representing data as a combination of multiple Gaussian distributions. Each component in the mixture is characterized by its own mean vector and covariance structure, allowing the model to capture complex data patterns that simpler methods might miss.
 
-**Key Components**:
-- **Number of Components**: Similar to K in K-means
-- **Expectation-Maximization (EM) Algorithm**: Iteratively calculates membership probabilities and updates parameters
-- **Covariance Type**: Determines cluster shape, size, and orientation
+**Core Components**:
+- **Mixture Components**: The number of Gaussian distributions in the model, analogous to the number of clusters in other approaches
+- **Expectation-Maximization (EM)**: An iterative optimization algorithm that alternates between estimating membership probabilities and updating distribution parameters
+- **Covariance Structure**: Defines the geometric properties of each cluster—spherical, diagonal, or full covariance matrices accommodate different cluster shapes
 
-**Advantages**: GMM offers flexibility in cluster shapes and provides uncertainty estimates through probabilistic assignments, making it particularly suitable for capturing the natural variability in sea ice and lead backscatter.
+**Why GMM for This Application?**
+- **Soft Assignments**: Rather than forcing each echo into a single category, GMM provides probabilities of belonging to each class, capturing classification uncertainty inherent in mixed or transitional surface types
+- **Adaptive Geometry**: The flexible covariance structure can accommodate the different shapes of sea ice and lead distributions in feature space
+- **Density Estimation**: The model captures not just cluster centers but the full probability distribution of each class, valuable for understanding natural variability
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- METHODS & IMPLEMENTATION -->
+The EM algorithm powers GMM fitting through two repeating steps: the Expectation step calculates the likelihood of each data point belonging to each component, while the Maximization step updates the Gaussian parameters to maximize these likelihoods. This continues until convergence, yielding both cluster assignments and uncertainty estimates for every observation.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p><!-- METHODS & IMPLEMENTATION -->
 
 # Methods & Implementation
 
